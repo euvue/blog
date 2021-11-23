@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Eupheng's Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euvue/blog.git"
+  },
+  "author": "Eupheng Vue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/euvue/blog/issues"
+  },
+  "homepage": "https://github.com/euvue/blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+  "scripts": {
+  "build": "npx eleventy",
+  "serve": "npx eleventy --serve",
+  "debug": "DEBUG=* npx eleventy"
+}
+
