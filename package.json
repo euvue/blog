@@ -4,7 +4,10 @@
   "description": "Eupheng's Blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,9 +22,5 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
   }
-  "scripts": {
-  "build": "npx eleventy",
-  "serve": "npx eleventy --serve",
-  "debug": "DEBUG=* npx eleventy"
 }
 
