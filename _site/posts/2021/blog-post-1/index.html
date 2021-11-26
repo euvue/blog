@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width+device-width, initial-scale=1" />
-	<title>My Blog</title>
-</head>
-<body>
-  <header>
-	Site Header
-	<a href="/About">About</a>
-  </header>
-  <main>
-	<p>This is the first post on my blog with (Eleventy)[https://www.11ty.dev]</p>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Blog</title>
+        <link rel="stylesheet" href="/css/site.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto&display=fallback" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="/" class="link--home">My Blog</a>
+            <a href="/About" class="link--about">About</a>
+        </header>
+        <main>
+            <article>
+  <h1>This is My First Ever Post</h1>
+  <time datetime="2021-11-24T00:00:00.000Z">November 24, 2021</time>
+  <!-- Excerpt Start -->
+<p>This is the first post on my blog with (Eleventy)[https://www.11ty.dev]</p>
+<!-- Excerpt End -->
 
-  </main>
-  <footer>Site Footer</footer>
-</body>
+</article>
+
+        </main>
+        <footer>&copy; My Blog</footer>
+    </body>
 </html>
