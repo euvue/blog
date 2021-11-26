@@ -22,6 +22,7 @@ I decided to take the time to learn how to develop a jamstack with 11ty due to t
 ### The Future
 
 I will slowly add features to this blog website in the future.
+
 Things to do:
 
 - add dark mode button
