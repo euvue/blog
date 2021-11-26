@@ -6,6 +6,6 @@ layout: base-layout.njk
 
 My name is Eupheng Vue.
 
-I am learning software & web development and I have decided to start a web blog.
+My mission is to constantly learn and develop with you throughout my journey. I have decided to start this web blog to share the knowledge I gain.
 
-You can reach me at [email](mailto:eu@vueee.com). 
+You can reach me at [email](mailto:hi@vueee.com). 
