@@ -4,4 +4,8 @@ layout: base-layout.njk
 
 # About This Blog
 
-This is my special place on the big World Wide Web 2
+My name is Eupheng Vue.
+
+I am learning software & web development and I have decided to start a web blog.
+
+You can reach me at [email](mailto:eu@vueee.com). 
