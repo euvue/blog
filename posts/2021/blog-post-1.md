@@ -26,6 +26,6 @@ I will slowly add features to this blog website in the future.
 Things to do:
 
 - add dark mode button
-- add profile picture
+- <s>add profile picture</s>
 
 Thank you for reading this blog!
