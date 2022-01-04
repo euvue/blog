@@ -3,23 +3,43 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Blog</title>
-        <link rel="stylesheet" href="/css/site.css">
+        <title>Gossip garden</title>
+        <link rel="stylesheet" href="/css/site.css" id="theme-link">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto&display=fallback" rel="stylesheet">
     </head>
     <body>
         <header>
-            <a href="/" class="link--home">Blog</a>
+            <a href="/" class="link--home">Gossip garden</a>
+            <div class="btn-nav">
+                <button class="btn-toggle">Lights</button>
+            </div>
             <a href="/About" class="link--about">About</a>
         </header>
         <main>
             <iframe width="100%" src="https://koi.rocks/embed/_ZBNxCFgVkAjtoL9A_BjSg1Rb6U2ET5u0X9-T6FYiG4" title="Koii  NFT image" frameborder="0" allowfullscreen></iframe>
-<h1>About This Blog</h1>
+<h1>About</h1>
 <p>My name is Eupheng Vue.</p>
 <p>My mission is to constantly learn and develop with you throughout my journey. I have decided to start this web blog to share the knowledge I gain.</p>
-<p>You can reach me at <a href="mailto:hi@vueee.com">email</a>.</p>
+<p>You can reach me at <a href="mailto:hi@euphengvue.com">email</a>.</p>
 
         </main>
-        <footer>&copy;  Vueee</footer>
+        <footer>&copy;  Eupheng Vue</footer>
+        <script> 
+             //Dark mode function
+            const btn = document.querySelector(".btn-toggle");
+            const theme = document.querySelector("#theme-link");
+            btn.addEventListener("click", function() {
+            // Swap out the URL for the different stylesheets
+                if (theme.getAttribute("href") == "/css/site.css") {
+                    theme.href = "/css/dark-theme.css";
+                } else {
+                  theme.href = "/css/site.css";
+            }
+        });
+        </script>
     </body>
 </html>
+<!--Privacy analytics using goatcounter.com-->
+    <script data-goatcounter="https://vuee.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    
+    

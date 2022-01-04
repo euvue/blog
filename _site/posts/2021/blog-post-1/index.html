@@ -3,13 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Blog</title>
-        <link rel="stylesheet" href="/css/site.css">
+        <title>Gossip garden</title>
+        <link rel="stylesheet" href="/css/site.css" id="theme-link">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto&display=fallback" rel="stylesheet">
     </head>
     <body>
         <header>
-            <a href="/" class="link--home">Blog</a>
+            <a href="/" class="link--home">Gossip garden</a>
+            <div class="btn-nav">
+                <button class="btn-toggle">Lights</button>
+            </div>
             <a href="/About" class="link--about">About</a>
         </header>
         <main>
@@ -28,13 +31,30 @@
 <p>Things to do:</p>
 <ul>
 <li>add dark mode button</li>
-<li>add profile picture</li>
+<li><s>add profile picture</s></li>
 </ul>
 <p>Thank you for reading this blog!</p>
 
 </article>
 
         </main>
-        <footer>&copy;  Vueee</footer>
+        <footer>&copy;  Eupheng Vue</footer>
+        <script> 
+             //Dark mode function
+            const btn = document.querySelector(".btn-toggle");
+            const theme = document.querySelector("#theme-link");
+            btn.addEventListener("click", function() {
+            // Swap out the URL for the different stylesheets
+                if (theme.getAttribute("href") == "/css/site.css") {
+                    theme.href = "/css/dark-theme.css";
+                } else {
+                  theme.href = "/css/site.css";
+            }
+        });
+        </script>
     </body>
 </html>
+<!--Privacy analytics using goatcounter.com-->
+    <script data-goatcounter="https://vuee.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    
+    
