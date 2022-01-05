@@ -2,8 +2,6 @@
 layout: base-layout.njk
 ---
 
-<iframe width="100%" src="https://koi.rocks/embed/_ZBNxCFgVkAjtoL9A_BjSg1Rb6U2ET5u0X9-T6FYiG4" title="Koii  NFT image" frameborder="0" allowfullscreen></iframe>
-
 # About
 
 My name is Eupheng Vue.
